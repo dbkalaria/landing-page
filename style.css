@@ -4,6 +4,158 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*  header  */
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 200px;
+    background-color: #1F2937;
+    font-family: 'Roboto' sans-serif;
+
+}
+
+.header-logo-and-link{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+    align-items: flex-end;
+}
+
+.link {
+    color: #f9faf8;
+}
+
+.header-hero {
+    display: flex;
+    justify-content: space-around;
+    margin: 72px 0;
+    gap: 56px;
+}
+
+.hero {
+    max-width: 400px;
+    padding: 8px;
+    margin: 24px 0;
+}
+
+.hero-text {
+    color: #f9faf8;
+}
+
+.hero-image img {
+    position: relative;
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/*  content  */
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    padding: 0 200px 32px;
+}
+
+.information-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    height: 98px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.photo img {
+    height: 200px;
+    width: 200px;
+    border-radius: 16px;
+}
+
+.description {
+    margin: 8px 0;
+    text-align: center;
+    width: 200px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9faf8;
+    padding: 84px;
+}
+
+.text,
+.author {
+    max-width: 900px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    height: 100px;
+    border-radius: 16px;
+    background-color: #3882f9;
+}
+
+.action-text,
+.signup {
+    color: #f9faf8;
+}
+
+.action-text {
+    font-size: 14px;
+}
+
+.signup {
+    height: 24px;
+    width: 92px;
+    border: solid;
+    border-color: #f9faf8;
+    border-width: 2px;
+    border-radius: 4px;
+    text-align: center;
+
+
+}
+
+
+/*  footer  */
 .footer {
     display: flex;
     justify-content: center;
